@@ -23,8 +23,8 @@ function writeToFile(fileName, data) {
     <body>
       <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Hi! My name is ${name}</h1>
-        <p class="lead">I am from ${location}.</p>
+        <h1 class="display-4">${title}</h1>
+        <p class="lead">${description}.</p>
         <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
         <ul class="list-group">
           <li class="list-group-item">My GitHub username is ${github}</li>
@@ -39,39 +39,44 @@ function writeToFile(fileName, data) {
     .prompt([
         {
         type: 'input',
-        name: 'name',
-        message: 'What is your name?',
+        name: 'title',
+        message: 'What is your project title?',
         },
         {
         type: 'input',
-        name: 'location',
-        message: 'Where are you from?',
+        name: 'description',
+        message: "Please provide a description of your project.",
         },
         {
         type: 'input',
-        name: 'hobby',
-        message: 'What is your favorite hobby?',
+        name: 'useage',
+        message: "Please provide useage information.",
         },
         {
         type: 'input',
-        name: 'food',
-        message: 'What is your favorite food?',
+        name: 'contribution',
+        message: "Please provide contribution guidelines.",
+        },
+        {
+        type: 'input',
+        name: 'test',
+        message: "Please provide test instructions.",
         },
         {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub Username',
+        message: 'Enter your GitHub URL.',
         },
         {
         type: 'input',
-        name: 'linkedin',
-        message: 'Enter your LinkedIn URL.',
-        },
+        name: 'email',
+        message: 'Enter your email.',
+        }
     ])
     .then((answers) => {
-        const htmlPageContent = generateHTML(answers);
+        const mdPageContent = generateHTML(answers);
 
-        fs.writeFile('index.html', htmlPageContent, (err) =>
+        fs.writeFile('README.md', mdPageContent, (err) =>
         err ? console.log(err) : console.log('Successfully created index.html!')
         );
     });
