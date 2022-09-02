@@ -11,7 +11,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileName, title, description, useage, contricution, test, github, email) {
     `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -28,7 +28,7 @@ function writeToFile(fileName, data) {
         <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
         <ul class="list-group">
           <li class="list-group-item">My GitHub username is ${github}</li>
-          <li class="list-group-item">LinkedIn: ${linkedin}</li>
+          <li class="list-group-item">LinkedIn: ${email}</li>
         </ul>
       </div>
     </div>
@@ -74,16 +74,16 @@ function writeToFile(fileName, data) {
         }
     ])
     .then((answers) => {
-        const mdPageContent = generateHTML(answers);
+        const mdPageContent = generate(answers);
 
         fs.writeFile('README.md', mdPageContent, (err) =>
-        err ? console.log(err) : console.log('Successfully created index.html!')
+        err ? console.log(err) : console.log('Successfully created README.md!')
         );
     });
 }
 
-// TODO: Create a function to initialize app
-function init() {}
+// // TODO: Create a function to initialize app
+// function init() {}
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
