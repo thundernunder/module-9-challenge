@@ -31,7 +31,7 @@ const questions = [
   },    
   {
     type: 'list',
-    name: 'licenses',
+    name: 'license',
     message: 'What license would you like to include?',
     choices: ['MIT', 'GPL', 'CC--0']
   },
@@ -51,7 +51,7 @@ const questions = [
 const writeToFile = data => {
   return new Promise((resolve, reject) => {
       // make a readme file and add to utils folder
-      fs.writeFile('./utils/newREADME.md', data, err => {
+      fs.writeFile('./utils/README.md', data, err => {
           if (err) {
               reject (err);
               return;
@@ -65,11 +65,22 @@ const writeToFile = data => {
 }
 
 
+
+
 // TODO: Create a function to initialize app
-function init() {
-  inquirer.prompt(questions);
+const init = () => {
+  return inquirer.prompt(questions);
 }
 
 // // Function call to initialize app
 init()
+.then(userInput => {
+    return generateMarkdown(userInput);
+})
+.then(readmeData => {
+    return writeToFile(readmeData);
+})
+.catch(err => {
+    console.log(err);
+})
 
