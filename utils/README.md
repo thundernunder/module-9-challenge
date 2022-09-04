@@ -1,23 +1,23 @@
-# hello from the other siiiiiiiiiiiiiiiiiiiiide
+# hello, it's me
 
-  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](undefined)
+  [![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](undefined)
 
   ## Description 
-  i must've called a thousand tiiiiiiiiiiiiiiiiiiiiiiiimes
+  i was wondering if after all these years you'd like to meet
 
   ## Installation 
   undefined
 
   ## Useage
-  to tell you i'm sorry
+  to go over ,everything
 
   ## Contributing
-  for everything that i've done
+  they say time suppose to heal ya, but i ain't done much healin
 
   ## Test
-  clearly it doesn't tear you apart anymooreeeeeeeeeee
+  there's a differene between us and a million miles
 
   ## Questions
   Have questions about this project?  
-  GitHub: https://github.com/ki  
-  Email: no
+  GitHub: https://github.com/hello from the other siiiiiiiiiiiiiiiiiiiiiiiiiiiide  
+  Email: i must've called a thousand tiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiimes
