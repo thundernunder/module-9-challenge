@@ -1,23 +1,23 @@
-# New README Generator
+# hello from the other siiiiiiiiiiiiiiiiiiiiide
 
-  
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](undefined)
 
   ## Description 
-  Template README generator applicable to use for all projects. 
+  i must've called a thousand tiiiiiiiiiiiiiiiiiiiiiiiimes
 
   ## Installation 
   undefined
 
   ## Useage
-  See above!
+  to tell you i'm sorry
 
   ## Contributing
-  Feel free to message me if you have edits or suggestions. 
+  for everything that i've done
 
   ## Test
-  I don't really know how to do that yet. 
+  clearly it doesn't tear you apart anymooreeeeeeeeeee
 
   ## Questions
   Have questions about this project?  
-  GitHub: https://github.com/github.io/thundernunder  
-  Email: nathannunderwood@gmail.com
+  GitHub: https://github.com/ki  
+  Email: no
