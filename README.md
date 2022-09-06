@@ -17,6 +17,9 @@
   ## Test
   Testing is always important. Make sure you pass all your functionality tests before writing program code. 
 
+  ## Video Walkthrough
+  <img src = "https://github.com/thundernunder/module-9-challenge/blob/main/assets/README%20Generator%20Walk-Thru.mp4" alt = "Video Walkthrough">
+
   ## Questions
   Have questions about this project?  
   GitHub: https://github.com/https://github.com/thundernunder  
