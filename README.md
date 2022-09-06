@@ -33,5 +33,5 @@
 
   ## Questions
   Have questions about this project?  
-  GitHub: https://github.com/https://github.com/thundernunder  
+  GitHub: https://github.com/thundernunder  
   Email: nathanrolandpotter@yahoo.com
