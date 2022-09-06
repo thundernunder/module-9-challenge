@@ -51,7 +51,7 @@ const questions = [
 const writeToFile = data => {
   return new Promise((resolve, reject) => {
       // make a readme file and add to utils folder
-      fs.writeFile('./utils/README.md', data, err => {
+      fs.writeFile('README.md', data, err => {
           if (err) {
               reject (err);
               return;

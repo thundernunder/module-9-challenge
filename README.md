@@ -1,18 +1,23 @@
-👦 Nathan Underwood - Module 9 Challenge - README Generator
+# Nathan's README Generator
 
-DESCRIPTION 
-This Challenge gives me the opportunity to refactor previous code in order to build a terminal-based README generator. The primiary vehicle behind the functionality of this project is Node.js. The user will see the ability to utilize Node into a fully-functioning README generator, including the use of package installations. This README generator allows the user the ability to quickly create a high-quality README for all of their projects and applications. 
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](undefined)
 
-USEAGE
-The user launches the application by inputting the commage 'node index.js' into the command line. Then the user is guided through the generation process by a series of prompts. Once the user answers all the prompts, a README.md file is saved, in this case to to 'utils' directory. 
+  ## Description 
+  This Challenge gives me the opportunity to refactor previous code in order to build a terminal-based README generator. The primiary vehicle behind the functionality of this project is Node.js. The user will see the ability to utilize Node into a fully-functioning README generator, including the use of package installations. This README generator allows the user the ability to quickly create a high-quality README for all of their projects and applications.
 
-FUNCTIONALITY
-📼 Here is a short video of what the functioning webpage should look like:
+  ## Installation 
+  undefined
 
-<img src= "https://github.com/thundernunder/module-9-challenge/blob/main/assets/README%20Generator%20Walk-Thru.mp4"  alt="README Generator Runthru">
+  ## Useage
+  The user launches the application by inputting the commage 'node index.js' into the command line. Then the user is guided through the generation process by a series of prompts. Once the user answers all the prompts, a README.md file is saved.
 
-Here is a link to the Github repo:
-https://github.com/thundernunder/module-9-challenge
+  ## Contributing
+  Adding guidelines for contributions is always a good idea. This allows other coders to help improve upon your project and make it easier to use for the world at large. 
 
+  ## Test
+  
 
-
+  ## Questions
+  Have questions about this project?  
+  GitHub: https://github.com/https://github.com/thundernunder  
+  Email: natharolandpotter@yahoo.com
