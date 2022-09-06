@@ -5,7 +5,7 @@
 * [Installation](#installation)
 * [Useage](#useage)
 * [Testing](#test)
-* [Contributions](#contribution)
+* [Contribution](#contribution)
 * [Questions](#questions)
 
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](undefined)
