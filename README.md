@@ -1,12 +1,18 @@
-👦 Nathan Underwood - Module 9 Challenge
+👦 Nathan Underwood - Module 9 Challenge - README Generator
 
-This Challenge gives me the opportunity to refactor previous code in order to build a smooth daily planner tool.
+DESCRIPTION 
+This Challenge gives me the opportunity to refactor previous code in order to build a terminal-based README generator. The primiary vehicle behind the functionality of this project is Node.js. The user will see the ability to utilize Node into a fully-functioning README generator, including the use of package installations. This README generator allows the user the ability to quickly create a high-quality README for all of their projects and applications. 
 
-The Daily Planner 📔 project allowed me to showcase my ability to use Javascript, as well as third-party API's such as Bootstrap, Moment, and jQuery. I initially struggled on the functionality of saving 💾 appointments in individual timeslots without creating excess code. I enjoyed coming up with the most efficient ⏩ way possible (with my current ability) of dynamically stylizing the timeblock background according to time of day, and storing user-input into local storage. I imagine there is a more efficient way of of adding user-input to local storage than creating nine separate event-listeners, and am excited ❕ to research ways to accomplish this.
+USEAGE
+The user launches the application by inputting the commage 'node index.js' into the command line. Then the user is guided through the generation process by a series of prompts. Once the user answers all the prompts, a README.md file is saved, in this case to to 'utils' directory. 
 
+FUNCTIONALITY
 📼 Here is a short video of what the functioning webpage should look like:
 
 <img src= "https://github.com/thundernunder/module-9-challenge/blob/main/assets/README%20Generator%20Walk-Thru.mp4"  alt="README Generator Runthru">
+
+Here is a link to the Github repo:
+https://github.com/thundernunder/module-9-challenge
 
 
 
