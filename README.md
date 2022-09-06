@@ -4,7 +4,7 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Useage](#useage)
-* [Testing] (#test)
+* [Testing](#test)
 * [Contributions](#contribution)
 * [Questions](#questions)
 
