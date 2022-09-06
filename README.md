@@ -1,5 +1,13 @@
 # Nathan's README Generator
 
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Useage](#useage)
+* [Testing] (#test)
+* [Contributions](#contribution)
+* [Questions](#questions)
+
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](undefined)
 
   ## Description 
